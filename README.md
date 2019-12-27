@@ -28,9 +28,9 @@ export const environment = {
     appId: 'your firebase configuration'
   }
 };
-
+```
 your microsoft configuration
-
+```
 prompt: 'select_account',
 tenant: 'your microsoft tenant id',
 client_id: 'your microsoft client id',
