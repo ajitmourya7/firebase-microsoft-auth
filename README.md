@@ -6,14 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Required dependencies
   (Already Added in the project)
+ ```
 -> @microsoft/microsoft-graph-client
 -> firebase
 -> isomorphic-fetch
+```
 
 ### Need to Update for your project
 
 your firebase configuration
-
+```
 export const environment = {
   production: false,
   firebase: {
@@ -34,7 +36,7 @@ tenant: 'your microsoft tenant id',
 client_id: 'your microsoft client id',
 response_type: 'code id_token',
 redirect_uri: 'firebase redirecting uri'
-
+```
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
